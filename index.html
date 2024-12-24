@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon - Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon-32x32.png">
+</head>
+<body>
+    <header>
+    <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+          <div class="nav-address border">
+            <p class="first-add">Deliver to</p>
+            <div class="add-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="second-add">India</p>
+            </div>
+         </div>
+         <div class="nav-search">
+            <select class="search-option">
+                <option value="all">All</option>
+                <option>Alexa Skills</option>
+                <option>Amazon Devices</option>
+                <option>Amazon Fashion</option>
+            </select>
+            <input type="search" placeholder="Search Amazon.in" class="search-input">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+         </div>
+
+         <div class="nav-flag border">
+            <div class="flag">
+                <img src="images/india-flag-icon.webp" alt="">
+            </div>
+            <select class="flag-en">
+                <option value="EN">EN</option>
+            </select>
+         </div>
+
+         <div class="nav-signin border">
+            <p><span>Hello, sign in</span></p>
+            <p class="nav-second">Account & Lists</p>
+         </div>
+
+         <div class="nav-return border">
+            <p><span>Returns</span></p>
+            <p class="nav-second">& Orders</p>
+         </div>
+
+         <div class="nav-cart border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+         </div>
+    </div> 
+
+    <div class="panel">
+        <div class="panel-all border">
+            <i class="fa-solid fa-bars"></i>
+            All
+        </div>
+        <div class="panel-option">
+            <p class="border">Fresh</p>
+            <p class="border">MX Player</p>
+            <p class="border">Sell</p>
+            <p class="border">Today's Deals</p>
+            <p class="border">Best Sellers</p>
+            <p class="border">Mobiles</p>
+            <p class="border"> Electronics</p>
+            <p class="border">Home & Kitchen</p>
+            <p class="border">Customer Service</p>
+            <p class="border">Prime</p>
+            <p class="border">Amazon Pay</p>
+            <p class="border">New Releases</p>
+            <p class="border">Fashion</p>
+            <p class="border">Car & Motorbike</p>
+            <p class="border">Computers</p>
+        </div>
+    </div>
+  </header>
+
+  <div class="hero-section" id="slider-image">
+    <div class="parent">
+        <div class="img-chng-right">
+           <div class="gt">
+            <img src="images/icons8-more-than-50.png" alt="">
+           </div> 
+        </div>
+        <div class="img-chng-left">
+           <div class="lt">
+            <img src="images/icons8-less-than-50.png" alt="">
+           </div> 
+        </div>
+    </div>
+  </div>
+
+  <div class="card-section" id="card-section">
+        <div class="box1 card">
+            <h2>Appliances for your home | Up to 55% off</h2>
+            <div class="box-contain">
+                <div class="text-img">
+                <div class="box-img" style="background-image: url(images/1.jpg);"></div>
+                <p>Air conditioners</p>
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/2.jpg);"></div>
+                    <p>Refrigerators</p>
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/3.jpg);"></div>
+                    <p>Microwaves</p>
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/4.jpg);"></div>
+                    <p>Washing machines</p>
+                </div>
+            </div>
+            <div class="down-para">
+                <p>See more</p>
+            </div>
+        </div>
+        
+        <div class="card box2">
+            <h2>Min. 40% off | Toys for your little ones | Amazon brands</h2>
+            <div class="box-contain">
+                <div class="text-img">
+                <div class="box-img" style="background-image: url(images/5.jpg);"></div>
+                <div class="para">
+                    <p>Min. 40% off | Indoor games</p>
+                </div>
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/6.jpg);"></div>
+                    <div class="para">
+                        <p>Min. 40% off | outdoor games</p>
+                    </div>
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/7.jpg);"></div>
+                    <div class="para">
+                        <p>Min. 40% off | soft toys</p>
+                    </div>
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/8.jpg);"></div>
+                    <div class="para">
+                         <p>Min. 40% off | Ride ons</p>
+                    </div>
+                </div>
+            </div>
+            <div class="down-para">
+                <p>See all offers</p>
+            </div>
+        </div>
+        <div class="card box3">
+            <h2>Explore more from Small Businesses</h2>
+            <div class="box-contain">
+                <div class="text-img">
+                <div class="box-img" style="background-image: url(images/9.jpg);"></div>
+               <div class="para">
+                <p>Glassware & drinkware</p>
+               </div> 
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/10.jpg);"></div>
+                    <div class="para">
+                        <p>Fashion accessories</p>
+                    </div>
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/11.jpg);"></div>
+                    <p>Décor</p>
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/12.jpg);"></div>
+                    <p>Ethnic, dresses & more</p>
+                </div>
+            </div>
+            <div class="down-para">
+                <p>Explore all</p>
+            </div>
+        </div>
+        <div class="card box4">
+            <h2>Starting ₹2199 | Amazon Brands & more</h2>
+            <div class="box-contain">
+                <div class="text-img">
+                <div class="box-img" style="background-image: url(images/13.jpg);"></div>
+                <div class="para">
+                    <p>Up to 60% off | Home decor</p>
+                </div>
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/14.jpg);"></div>
+                    <div class="para">
+                        <p>Minimum 40% off | Ironing board & more</p>
+                    </div>
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/15.jpg);"></div>
+                    <div class="para">
+                        <p>Starting ₹2199 | Curtains</p>
+                    </div>
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/16.jpg);"></div>
+                    <div class="para">
+                        <p>Starting ₹2199 | Bedsheets</p>
+                    </div>
+                </div>
+            </div>
+            <div class="down-para">
+                <p>See more</p>
+            </div>
+        </div>
+        <div class="card box5">
+            <h2>Automotive essentials | Up to 60% off</h2>
+            <div class="box-contain">
+                <div class="text-img">
+                <div class="box-img" style="background-image: url(images/17.jpg);"></div>
+                <div class="para">
+                    <p>Vacuum cleaner</p>
+                </div>
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/18.jpg);"></div>
+                    <div class="para">
+                        <p>Helmets</p>
+                    </div>
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/19.jpg);"></div>
+                    <div class="para">
+                        <p>Tyre & rim care</p>
+                    </div>
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/20.jpg);"></div>
+                    <div class="para">
+                        <p>Cleaning accessories</p>
+                    </div>
+                </div>
+            </div>
+            <div class="down-para">
+                <p>See more</p>
+            </div>
+        </div>
+        <div class="card box6">
+            <h2>Starting ₹149 | Headphones</h2>
+            <div class="box-contain">
+                <div class="text-img">
+                <div class="box-img" style="background-image: url(images/21.jpg);"></div>
+                <div class="para">
+                    <p>Starting ₹149 | Zebronics</p>
+                </div>
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/22.jpg);"></div>
+                    <div class="para">
+                        <p>Starting ₹649 | Noise</p>
+                    </div>
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/23.jpg);"></div>
+                    <div class="para">
+                        <p>Starting ₹249 | boAt BOULT</p>
+                    </div>
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/24.jpg);"></div>
+                    <div class="para">
+                        <p>Starting ₹349 | boult nOISE</p>
+                    </div>
+                </div>
+            </div>
+            <div class="down-para">
+                <p>See all offers</p>
+            </div>
+        </div>
+        <div class="card box7">
+            <h2>Revamp your home in style</h2>
+            <div class="box-contain">
+                <div class="text-img">
+                <div class="box-img" style="background-image: url(images/25.jpg);"></div>
+                <div class="para">
+                    <p>Figurines, vases & more</p>
+                </div>
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/26.jpg);"></div>
+                    <div class="para">
+                        <p>Cushion covers, bedsheets & more</p>
+                    </div>
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/27.jpg);"></div>
+                    <div class="para">
+                        <p>Lighting solutions</p>
+                    </div>
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/28.jpg);"></div>
+                    <div class="para">
+                        <p>Home storage</p>
+                    </div>
+                </div>
+            </div>
+            <div class="down-para">
+                <p>Explore all</p>
+            </div>
+        </div>
+        <div class="card box8">
+            <h2>Under 4499 | Pocket-friendly fashion</h2>
+            <div class="box-contain">
+                <div class="text-img">
+                <div class="box-img" style="background-image: url(images/29.jpg);"></div>
+                <p>Clothing</p>
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/30.jpg);"></div>
+                    <p>Backpacks</p>
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/31.jpg);"></div>
+                    <p>Footwear</p>
+                </div>
+                <div class="text-img">
+                    <div class="box-img" style="background-image: url(images/32.jpg);"></div>
+                    <p>View all</p>
+                </div>
+            </div>
+            <div class="down-para">
+                <p>See all offers</p>
+            </div>
+        </div>
+     </div>
+
+
+     <footer>
+        <div class="foot-panel1">
+           <a href="#">Back to Top</a> 
+        </div>
+
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="#">About Amazon</a>
+                <a href="#">Careers</a>
+                <a href="#">Press Releases</a>
+                <a href="#">Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Connect with Us</p>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </ul>
+            <ul>
+                <p> Make Money with Us</p>
+                <a href="#">Sell under Amazon Accelerator</a>
+                <a href="#">Protect and Build Your Brand</a>
+                <a href="#">Amazon Global Selling</a>
+                <a href="#">Supply to Amazon</a>
+                <a href="#">Become an Affiliate</a>
+                <a href="#">Fulfilment by Amazon</a>
+                <a href="#">Advertise Your Products</a>
+                <a href="#">Amazon Pay on Merchants</a>
+            </ul>
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="#">About Amazon</a>
+                <a href="#">Careers</a>
+                <a href="#">Press Releases</a>
+                <a href="#">Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a href="#">Returns Centre</a>
+                <a href="#">Recalls and Product Safety Alerts</a>
+                <a href="#">100% Purchase Protection</a>
+                <a href="#">Amazon App Download</a>
+                <a href="#">Help</a>
+            </ul> 
+        </div>
+        <div class="foot-panel3">
+            <div class="logo">  
+            </div>
+        </div>
+
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of Use & Sale</a>
+                <a>Privacy Notice</a>
+                <a>Interest-Based Ads</a>
+            </div>
+            <div class="copyright">
+                © 1996-2024, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+     </footer>
+    <script src="script.js"></script>
+</body>
+</html>
